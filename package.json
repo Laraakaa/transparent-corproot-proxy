@@ -1,0 +1,17 @@
+{
+  "name": "transparent-corproot-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LarsBaertschi/transparent-corproot-proxy.git",
+  "author": "Lars Bärtschi <info@lars.ninja>",
+  "license": "MIT",
+  "dependencies": {
+    "http": "^0.0.0",
+    "http-proxy": "^1.17.0",
+    "nodemon": "^1.18.4",
+    "request": "^2.88.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
