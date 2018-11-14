@@ -125,7 +125,8 @@ const getHostPortFromString = (hostString, defaultPort) => {
   return ( [host, port] );
 };
 
-setTimeout(updateCurrentStatus, 500);
+setTimeout(updateCurrentStatus, config.check_interval);
+updateCurrentStatus();
 
 //proxy.on('proxyReq', (proxyReq, req, res, options) => {
   // console.log(proxyReq.path);
